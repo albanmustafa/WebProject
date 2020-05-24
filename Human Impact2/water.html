@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Water</title>
+    <style type="text/css">
+    *{
+   
+        box-sizing: border-box;
+    }
+    .gallery{
+        border: 1px solid #ccc;
+        border-radius: .6em;
+    }
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+    .desc{
+        padding: 15px;
+        text-align: center;
+        
+    }
+    .responsive{
+        padding: 0 6px;
+        float: left;
+        width: 25%;
+    }
+    @media (max-width: 700px;){
+        .responsive{
+            width: 50%;
+            margin: 6px 0;
+        }
+    }
+    @media (max-width: 500px;){
+        .responsive{
+            width: 100%;
+        }
+    }
+   body{
+       background-color: rgb(200, 172, 226);
+   }
+   h1{
+       text-align: center;
+       color: crimson;
+       text-transform: uppercase;
+   }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Water</h1>
+    <div class="responsive">
+        <div class="gallery">
+            <a><img src="images2/Growth of Cancún, Mexico.jpg" alt="" width="300" height="200"></a>
+            <div class="desc">Growth of Cancún, Mexico</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a><img src="images2/Lake Mead at record low.jpg" alt=""width="300" height="200"></a>
+            <div class="desc">Lake Mead at record low</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a><img src="images2/Walker Lake, Nevada, gets smaller and saltier.jpg" alt=""width="300" height="200"></a>
+            <div class="desc">Walker Lake, Nevada, gets smaller and saltier</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a><img src="images2/water111.JPG" alt=""width="300" height="200"></a>
+            <div class="desc">Add Description</div>
+        </div>
+    </div>
+</body>
+</html>
